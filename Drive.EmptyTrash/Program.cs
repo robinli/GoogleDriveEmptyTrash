@@ -92,7 +92,12 @@ namespace Drive.Sample
         {
             GoogleWebAuthorizationBroker.Folder = "Drive.EmptyTrash";
             UserCredential credential;
-            using (var stream = new System.IO.FileStream("client_secrets.json",
+
+            string filePath = System.IO.Path.Combine(
+                System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)
+                , "client_secrets.json");
+            
+            using (var stream = new System.IO.FileStream(filePath,
                 System.IO.FileMode.Open, System.IO.FileAccess.Read))
             {
                 credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
