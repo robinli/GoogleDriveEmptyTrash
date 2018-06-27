@@ -1,14 +1,14 @@
 # Site settings
 title: Robin | Google Drive Empty Trash
 description: "Google Drive Empty Trash"
-url: "https://robinli.github.io/GoogleDriveEmptyTrash/"
+url: "https://robinli.github.io/GoogleDriveEmptyTrash"
 author:
   name: "Robin Li"
   email: "im@robinks.net"
   url: "http://www.jacoporabolini.com"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /GoogleDriveEmptyTrash/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
