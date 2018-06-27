@@ -90,7 +90,7 @@ namespace Drive.Sample
 
         private async Task Run()
         {
-            GoogleWebAuthorizationBroker.Folder = "Drive.EmptyTrash";
+            GoogleWebAuthorizationBroker.Folder = "GoogleDrive.EmptyTrash";
             UserCredential credential;
 
             string filePath = System.IO.Path.Combine(
