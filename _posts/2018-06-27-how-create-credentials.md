@@ -22,4 +22,4 @@ Application type 選擇 Other
 
 ![Step 5](img/how-create-credentials-05.png "Step 5")
 取得 Client ID 與 Client secret 後，
-複製並置換 client_secrets.json 檔愛內容。
+複製並置換 client_secrets.json 檔案中的內容。
